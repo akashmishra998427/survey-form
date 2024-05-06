@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+  <title>freeCodeCamp survey form</title>
+  <link rel="stylesheet" href="style.css">
+  </link>
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Thanks for the giving us your valuable time.</p>
+  <form id="survey-form">
+    <fieldset id="f1">
+      <label for="name" id="name-label">Name <input type="text" id="name" required name="name" placeholder="Enter your full name"></label>
+      <label for="email" id="email-label">Email <input id="email" type="email" name="email" required placeholder="Enter your email"></label>
+      <label for="number" id="number-label">Age(optional) <input id="number" type="number" name="number" min="13" max="100" placeholder="Enter your age"></label>
+    </fieldset>
+    <fieldset id="f2">
+      <label for="dropdown">Which option describes the best of your current role?<select id="dropdown" title="please select one from the below list">
+      <option>Select current role</option>
+      <option>Student</option>
+      <option>
+        Full time job
+      </option>
+      <option>Full time learner</option>
+      <option>Prefer not to say</option>
+      <option>Other</option>
+    </select>
+     </fieldset>
+    <fieldset id="f3">
+      <label id="rec">Would you recommend freeCodeCamp to a friend?</label>
+      <label for="definitely"><input type="radio" name="suggestion" value="Definitely" id="definitely">Definitely</label>
+      <label for="maybe"><input type="radio" name="suggestion" value="Maybe" id="maybe">Maybe</label>
+      <label for="notsure"><input type="radio" name="suggestion" value="Not Sure" id="notsure">Not Sure</label>
+    </fieldset>
+    <fieldset id="f4">
+      <label for="dropdown1">What is your favorite feature of freeCodeCamp?</label><select id="dropdown1" title="please select one from the below list">
+      <option>Select an option</option>
+      <option>Challenges</option>
+      <option>Projects</option>
+      <option>Community</option>
+      <option>Open source</option>
+    </select>
+    </fieldset>
+    <fieldset id="f5">
+      <label id="lab">What would you like to see improved?<span id="small"> (Check all that apply)</span></label>
+      <label for="Front-end Projects"><input type="checkbox" value="Front-end Projects" id="Front-end Projects">Front-end Projects</label>
+      <label for="Back-end Projects"><input type="checkbox" value="Back-end Projects" id="Back-end Projects">Back-end Projects</label>
+      <label for="Data Visualization"><input type="checkbox" value="Data Visualization" id="Data Visualization">Data Visualization</label>
+      <label for="Challenges"><input type="checkbox" value="Challenges" id="Challenges">Challenges</label>
+      <label for="Open Source Community"><input type="checkbox" value="Open Source Community" id="Open Source Community">Open Source Community</label>
+    </fieldset>
+    <fieldset id="f6">
+      <label for="textarea">Any comments or suggestions?<textarea id="textarea" rows="3" cols="25" placeholder="Enter your comment here..."></textarea>
+       <button id="submit" type="submit">Submit</submit>
+    </fieldset>
+   
+  </form>
+</body>
+
+</html>

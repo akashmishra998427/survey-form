@@ -1,0 +1,149 @@
+body{
+    margin:0px;
+    padding:25px;
+    background-color:rgb(89,89,144);
+    font-family:Sans-serif;
+  }
+  h1{
+    text-align:center;
+    margin:3px;
+    color:#ffffff;
+  }
+  p{
+    text-align:center;
+    font-style:italic;
+    font-size:20px;
+    margin:7px;
+    margin-bottom:25px;
+    color:#ffffff;
+  }
+  form{
+    width:60%;
+    max-width:500px;
+    min-width:300px;
+    margin:0px auto;
+    background-color:rgba(39,39,70,0.7);
+    color:rgba(255,255,255);
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0px 0px 30px 10px rgb(39,39,70,0.6);
+  }
+  #f1{
+    border:none;
+  }
+  #f1 label{
+    font-size:20px;
+  }
+  #f1 input{
+    display:block;
+    height:2em;
+    width:100%;
+    margin:10px 0px;
+    font-size:17px;
+    padding:5px;
+    border-radius:5px;
+  }
+  #f1 input:focus,#f1 select{
+    border:2px solid blue;
+    outline:none;
+  }
+  #f2{
+    border:none;
+    margin-bottom:10px;
+  }
+  #f2 label{
+    font-size:18px;
+  }
+  #f2 label select,#f4 select{
+    display:blcok;
+    width:100%;
+    height:2em;
+    font-size:17px;
+    margin-top:10px;
+    padding:5px;
+    border-radius:5px;
+  }
+  #f3{
+  margin-bottom:20px;
+  border:none;
+  }
+  #f3 #rec{
+  font-size:18px;
+  display:block;
+  
+  }
+  #f3 label{
+    display:block;
+    font-size:17px;
+    margin-top:7px;
+   
+  }
+  #f3 input{
+    display:inline-block;
+  font-size:17px;
+  margin-right:10px;
+  height:20px;
+  width:20px;
+  vertical-align:middle;
+  margin-top:-2px;
+  }
+  #f4{
+  margin-bottom:20px;
+  border:none;
+  }
+  #f4 label{
+    display:block;
+    font-size:18px;
+   
+  
+  }
+  #f5{
+    margin-bottom:20px;
+    border:none;
+  }
+  
+  #f5 label{
+    display:block;
+    font-size:18px;
+    margin:7px
+  }
+  #f5 #lab{
+    font-size:20px;
+    margin-bottom:9px;
+  }
+  #f5 #small{
+    font-size:15px
+  }
+  #f5 input[type="checkbox"]{
+    margin-right:10px;
+    height:20px;
+    width:20px;
+    vertical-align:middle;
+    
+  }
+  #f6{
+    border:none;
+    margin-top:-10px;
+  }
+  #f6 label{
+    font-size:19px
+  }
+  #f6 #textarea{
+    display:block;
+    width:100%;
+    padding:5px;
+    margin-top:5px;
+    font-size:17px;
+    margin-bottom:20px;
+    border-radius:5px;
+  }
+  #submit{
+  display:block;
+  width:100%;
+  padding:10px;
+  font-size:20px;
+  color:#ffffff;
+  background-color:#37AF65;
+  border:none;
+  border-radius:5px;
+  }
